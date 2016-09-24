@@ -5,11 +5,12 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="8dp"
-    android:background="#795548">
+    android:background="#795548"
+    android:padding="8dp">
 
     <ImageView
         android:id="@+id/picture"
+        android:contentDescription="@string/birthdaycard"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
@@ -19,25 +20,25 @@
         android:id="@+id/happybirthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/happy_birthday"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:fontFamily="sans-serif-condensed"
-        android:textStyle="bold|italic"
+        android:text="@string/happy_birthday"
         android:textColor="#283593"
         android:textSize="45sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:textStyle="bold|italic" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/from_harshitha"
-        android:textColor="#283593"
-        android:fontFamily="sans-serif-condensed"
-        android:textStyle="italic"
-        android:textSize="25sp"
-        android:layout_below="@+id/happybirthday"
         android:layout_alignLeft="@+id/happybirthday"
         android:layout_alignStart="@+id/happybirthday"
-        android:layout_marginTop="122dp" />
+        android:layout_below="@+id/happybirthday"
+        android:layout_marginTop="122dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/from_harshitha"
+        android:textColor="#283593"
+        android:textSize="25sp"
+        android:textStyle="italic" />
 
 </RelativeLayout>

@@ -19,7 +19,7 @@
         android:id="@+id/happybirthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HAPPY BIRTHDAY!"
+        android:text="@string/happy_birthday"
         android:fontFamily="sans-serif-condensed"
         android:textStyle="bold|italic"
         android:textColor="#283593"
@@ -30,7 +30,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FROM,HARSHITHA"
+        android:text="@string/from_harshitha"
         android:textColor="#283593"
         android:fontFamily="sans-serif-condensed"
         android:textStyle="italic"

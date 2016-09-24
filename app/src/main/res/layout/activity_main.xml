@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#795548">
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/birthday"/>
+
+    <TextView
+        android:id="@+id/happybirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAPPY BIRTHDAY!"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold|italic"
+        android:textColor="#283593"
+        android:textSize="45sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FROM,HARSHITHA"
+        android:textColor="#283593"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:layout_below="@+id/happybirthday"
+        android:layout_alignLeft="@+id/happybirthday"
+        android:layout_alignStart="@+id/happybirthday"
+        android:layout_marginTop="122dp" />
+
+</RelativeLayout>
